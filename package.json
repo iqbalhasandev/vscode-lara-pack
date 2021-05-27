@@ -17,7 +17,7 @@
         "url": "https://github.com/iqbalhasandev/vscode-lara-pack/issues",
         "email": "iqbalhasan.dev@gmail.com"
     },
-    "version": "1.0.0",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.56.0"
     },
@@ -25,13 +25,22 @@
         "Extension Packs"
     ],
     "keywords": [
+        "lara",
+        "pack",
+        "lara-pack",
+        "laraPack",
+        "lara pack",
+        "Laravel Development",
+        "Laravel Development Environment",
+        "Laravel Environment",
+        "vscode-lara-pack",
         "Web",
         "Web Design",
         "Web Design  Extension Pack",
         "Web Development",
         "Web Development  Extension Pack",
         "HTML",
-        "HTML  Extension Pack",
+        "HTML Extension Pack",
         "CSS",
         "CSS Extension Pack",
         "Js",
