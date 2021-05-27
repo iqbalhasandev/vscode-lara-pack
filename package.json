@@ -3,6 +3,7 @@
     "displayName": "Lara Pack",
     "description": "Lara Pack is a Official VS Code Laravel Development Environment Extension Pack By IQBAL HASAN! Lara Pack is a collection of popular extensions that can help write, test and debug Laravel applications in Visual Studio Code.Lara Pack contains all the necessary extensions of html, css, js, vue, node, axios, php and laravel.",
     "publisher": "iqbalhasandev",
+    "icon": "img/icon.jpg",
     "author": {
         "name": "IQBAL HASAN"
     },
@@ -12,7 +13,10 @@
         "type": "git",
         "url": "https://github.com/iqbalhasandev/vscode-lara-pack"
     },
-    "bugs": "https://github.com/iqbalhasandev/Full-Stack-Development-Extension-Pack/issues",
+    "bugs": {
+        "url": "https://github.com/iqbalhasandev/vscode-lara-pack/issues",
+        "email": "iqbalhasan.dev@gmail.com"
+    },
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.56.0"
