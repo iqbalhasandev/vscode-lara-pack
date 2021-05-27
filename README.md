@@ -1,6 +1,6 @@
 <p align="center">
 
-![Demo](img/advanced-new-file.gif)
+![Demo](img/banner.jpg)
 
 </p>
 
@@ -33,7 +33,7 @@ Launch _Quick Open_:
 Paste the following command and press `Enter`:
 
 ```shell
-ext install learn-with-sumit-theme
+ext install lara-pack
 ```
 
 And pick the one by **IQBAL HASAN** as author.
