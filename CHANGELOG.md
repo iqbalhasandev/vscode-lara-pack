@@ -4,6 +4,6 @@ All notable changes to the "larapack" extension pack will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [v2.0.0]
 
-- Initial release
+- New Update with latest package
