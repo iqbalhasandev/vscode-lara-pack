@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [v2.0.0]
 
 - New Update with latest package
+
+## [v2.0.1]
+
+- New Update with latest package and remove old an unused extensions

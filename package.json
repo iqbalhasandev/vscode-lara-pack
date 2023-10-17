@@ -19,7 +19,7 @@
         "url": "https://github.com/iqbalhasandev/vscode-lara-pack/issues",
         "email": "iqbalhasan.dev@gmail.com"
     },
-    "version": "2.0.0",
+    "version": "2.0.1",
     "engines": {
         "vscode": "^1.56.0"
     },
