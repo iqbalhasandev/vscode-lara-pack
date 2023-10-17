@@ -5,7 +5,9 @@
     "publisher": "iqbalhasandev",
     "icon": "img/icon.jpg",
     "author": {
-        "name": "IQBAL HASAN"
+        "name": "IQBAL HASAN",
+        "email": "iqbalhasan.dev@gmail.com",
+        "url": "https://iqbalhasan.dev"
     },
     "homepage": "https://github.com/iqbalhasandev/vscode-lara-pack/blob/master/README.md",
     "license": "SEE LICENSE IN LICENSE.md",
