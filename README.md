@@ -42,442 +42,375 @@ code --install-extension iqbalhasandev.lara-pack
 
 By installing Lara-Pack, the following extensions are installed:
 
-<!-- VSCode Advanced New File -->
+  <!-- Auto Close Tag -->
 
-- [📦 VSCode Advanced New File ](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
+# [📦 Auto Close Tag ](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-  - Fuzzy-matching autocomplete to create new file relative to existing path
-  - Create new directories while creating a new file
-  - Create a directory instead of a file by suffixing the file path with / as in somedirectory/ to create the directory
-  - Ignores gitignored and workspace files.exclude settings.
-  - Additional option of adding advancedNewFile.exclude settings to workspace settings just like native files.exlude except it explicitly effects AdvancedNewFile plugin only.
-  - Control the order of top convenient options ("last selection", "current file", etc) via config setting advancedNewFile.convenienceOptions.
-  - ## Usage
+- Automatically add closing tag when you type in the closing bracket of the opening tag
+- After closing tag is inserted, the cursor is between the opening and closing tag
+- Set the tag list that would not be auto closed
+- Automatically close self-closing tag
+- Support auto close tag as Sublime Text 3
+- Use Keyboard Shortcut or Command Palette to add close tag manually
 
-        * Command palette: "Advanced New File"
-        * Keyboard shortcut: cmd+alt+n (Mac), ctrl+alt+n (Win, Linux)
+## Usage
 
-    ![Demo](img/advanced-new-file.gif)
+After typing in the closing bracket of the opening tag, the closing tag will be inserted automatically.
 
-    <!-- Auto Rename Tag -->
+![Demo](img/auto-close-tag.gif)
 
-- [📦 Auto Rename Tag ](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+  <!-- Auto Rename Tag -->
 
-  - When you rename one HTML/XML tag, automatically rename the paired HTML/XML tag
-  - ## Usage
+# [📦 Auto Rename Tag ](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-    ![Demo](img/auto-rename-tag.gif)
+- When you rename one HTML/XML tag, automatically rename the paired HTML/XML tag
 
-    <!-- axios snippets -->
+## Usage
 
-- [📦 axios snippets ](https://marketplace.visualstudio.com/items?itemName=presidentma.axios-snippets)
+![Demo](img/auto-rename-tag.gif)
 
-  - Axios Snippets support in .vue, .js, .html , .ts.
+# [📦 axios snippets ](https://marketplace.visualstudio.com/items?itemName=presidentma.axios-snippets)
 
-    <!-- Beautify -->
+- Axios Snippets support in .vue, .js, .html , .ts.
 
-- [📦 Beautify ](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
+# [📦 Better Comments ](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
-  - Beautify javascript, JSON, CSS, Sass, and HTML in Visual Studio Code.
+- The Better Comments extension will help you create more human-friendly comments in your code.
+  With this extension, you will be able to categorise your annotations into:
 
-    <!-- Better Comments -->
+  - Alerts
+  - Queries
+  - TODOs
+  - Highlights
+  - Commented out code can also be styled to make it clear the code shouldn't be there Any other comment styles you'd like can be specified in the settings
 
-- [📦 Better Comments ](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+  ![Demo](img/better-comments.png)
 
-  - The Better Comments extension will help you create more human-friendly comments in your code.
-    With this extension, you will be able to categorise your annotations into:
+# [📦 Code Spell Checker ](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-    - Alerts
-    - Queries
-    - TODOs
-    - Highlights
-    - Commented out code can also be styled to make it clear the code shouldn't be there Any other comment styles you'd like can be specified in the settings
+- A basic spell checker that works well with camelCase code.
 
-    ![Demo](img/better-comments.png)
+- The goal of this spell checker is to help catch common spelling errors while keeping the number of false positives low.
 
-    <!--Better PHPUnit -->
+  ![Demo](img/code-spell-checker.gif)
 
-- [📦 Better PHPUnit ](https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit)
+# [📦 Composer ](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
 
-  - Better PHPUnit is the most popular, cleanest, and fastest PHPUnit runner for VS Code.
+- When you rename one HTML/XML tag, automatically rename the paired HTML/XML tag
+- ## Composer.json Editor & IntelliSense
 
-    - Color output!
-    - Run individual methods by placing your cursor anywhere in/on the method
-    - Test failures are displayed in the "Problems" panel for quick access
+  The composer.json editor is extended with smart actions, code lenses, tooltips, and IntelliSense to autocomplete packages and versions from packagist.org.
 
-  - ## Usage
-  - Run a test method:
+  ![Demo](img/composer-complete.gif)
 
-    - Place your cursor in/on the method you want to run
-    - Open the command menu: `cmd+shift+p`
-    - Select: `Better PHPUnit: run`
+# [📦 CSS Formatter ](https://marketplace.visualstudio.com/items?itemName=aeschli.vscode-css-formatter)
 
-  - Run a test file:
+## VS Code CSS Formatting
 
-    - Open the command menu: `cmd+shift+p`
-    - Select: `Better PHPUnit: run-file`
+This extension adds formatting to CSS.
 
-  - Run the entire suite:
+- Open a CSS file in the editor (status bar should show CSS as mode)
+- Use command Format Document
 
-    - Open the command menu: `cmd+shift+p`
-    - Select: `Better PHPUnit: run suite`
+# [📦 css-auto-prefix](https://marketplace.visualstudio.com/items?itemName=sporiley.css-auto-prefix)
 
-  - Run the previous test:
+- This tool, although currently usable to an extent, is by no means completed and still requires a lot of work to be finalized. If this freaks you out, please stick around until a later, more stable version is released. Thanks!
+- ## Usage
 
-    - Open the command menu: `cmd+shift+p`
-    - Select: `Better PHPUnit: run previous
+  - Works both for indented and single-line CSS styles. To activate it, just Ctrl+Shift+P into the workbench command window and type "Auto Prefix"
 
-    ![Demo](img/better-phpunit.gif)
+  ![Demo](img/css-auto-prefix.gif)
 
-- [📦 Bracket Pair Colorizer ](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer)
+# [📦 DotENV ](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 
-  - This extension allows matching brackets to be identified with colours. The user can define which characters to match, and which colours to use.
+## VSCode .env syntax highlighting
 
-    ![Demo](img/bracket-pair-colorizer.png)
+- A port of DotENV for vscode.
 
-- [📦 Code Spell Checker ](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+  ![Demo](img/dotenv.png)
 
-  - A basic spell checker that works well with camelCase code.
+# [📦 ESLint ](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-  - The goal of this spell checker is to help catch common spelling errors while keeping the number of false positives low.
+- The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn't provide one the extension looks for a global install version. If you haven't installed ESLint either locally or globally do so by running npm install eslint in the workspace folder for a local install or npm install -g eslint for a global install.
 
-    ![Demo](img/code-spell-checker.gif)
+- On new folders you might also need to create a .eslintrc configuration file. You can do this by either using the VS Code command Create ESLint configuration or by running the eslint command in a terminal. If you have installed ESLint globally (see above) then run eslint --init in a terminal. If you have installed ESLint locally then run .\node_modules\.bin\eslint --init under Windows and ./node_modules/.bin/eslint --init under Linux and Mac.
 
-- [📦 CSS Formatter ](https://marketplace.visualstudio.com/items?itemName=aeschli.vscode-css-formatter)
+# [📦 GitLens — Git supercharged ](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-  - This extension adds formatting to CSS.
+- GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
 
-- [📦 css-auto-prefix](https://marketplace.visualstudio.com/items?itemName=sporiley.css-auto-prefix)
+  ![Demo](img/vscode-gitlens.gif)
 
-  - This tool, although currently usable to an extent, is by no means completed and still requires a lot of work to be finalized. If this freaks you out, please stick around until a later, more stable version is released. Thanks!
-  - ## Usage
+# [📦 Guides ](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)
 
-    - Works both for indented and single-line CSS styles. To activate it, just Ctrl+Shift+P into the workbench command window and type "Auto Prefix"
+- A Visual Studio Code extension for more guide lines
 
-    ![Demo](img/css-auto-prefix.gif)
+- How **Guides** different from built-in indentation guides?
 
-- [📦 EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
+  - Stack and Active indentation guides
+  - Indentation backgrounds
+  - Color and style customizations
+  - Hide on selection
 
-  - This plugin attempts to override user/workspace settings with settings found in `.editorconfig` files. No additional or vscode-specific files are required. As with any EditorConfig plugin, if root=true is not specified, EditorConfig will continue to look for an `.editorconfig` file outside of the project.
+  ![Demo](img/vscode-guides.png)
 
-  - ## Supported Properties
+# [📦 HTML CSS Support ](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
 
-    - `indent_style`
-    - `indent_size`
-    - `tab_width`
-    - `end_of_line` (on save)
-    - `insert_final_newline` (on save)
-    - `trim_trailing_whitespace` (on save)
+## Visual Studio Code CSS Intellisense for HTML
 
-- [📦 ESLint ](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- HTML id and class attribute completion for Visual Studio Code.
 
-  - The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn't provide one the extension looks for a global install version. If you haven't installed ESLint either locally or globally do so by running npm install eslint in the workspace folder for a local install or npm install -g eslint for a global install.
+## Features
 
-  - On new folders you might also need to create a .eslintrc configuration file. You can do this by either using the VS Code command Create ESLint configuration or by running the eslint command in a terminal. If you have installed ESLint globally (see above) then run eslint --init in a terminal. If you have installed ESLint locally then run .\node_modules\.bin\eslint --init under Windows and ./node_modules/.bin/eslint --init under Linux and Mac.
+- HTML id and class attribute completion.
+- Supports linked and embedded style sheets.
+- Supports template inheritance.
+- Supports additional style sheets.
+- Supports other HTML like languages.
+- Validates CSS selectors on demand.
 
-- [📦 File Utils ](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
+## Usage
 
-  - A convenient way of creating, duplicating, moving, renaming, deleting files and directories.
-  - ## Usage
+You can view a list of id and class attribute suggestions via ctrl + space.
 
-    - Bring up the command palette, and select "File Utils: ".
-    - Select one of the commands mentioned below.
-    - Press [Enter] to confirm, or [Escape] to cancel.
+# [📦 Import Cost ](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 
-    ![Demo](img/vscode-fileutils.gif)
+- This extension will display inline in the editor the size of the imported package. The extension utilizes webpack with babili-webpack-plugin in order to detect the imported size.
+- Features
+  - Calculates the size of imports and requires. Currently supports:
+    - Default importing: import Func from 'utils';
+    - Entire content importing: import \* as Utils from 'utils';
+    - Selective importing: import {Func} from 'utils';
+    - Selective importing with alias: import {orig as alias} from 'utils';
+    - Submodule importing: import Func from 'utils/Func';
+    - Require: const Func = require('utils').Func;
+    - Supports both Javascript and Typescript
 
-- [📦 gitignore ](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+# [📦 Highlight Matching Tag ](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 
-  - A extension for Visual Studio Code that assists you in working with .gitignore files.
+- This extension highlights matching opening and/or closing tags. Optionally it also shows path to tag in the status bar. Even though VSCode has some basic tag matching, it's just that - basic. This extension will try to match tags anywhere: from tag attributes, inside of strings, any files, while also providing extensive styling options to customize how tags are highlighted.
+- ## Features
 
-  - Features
-    - Language support for .gitignore files
-    - Add local .gitignore by pulling file from the the github/gitignore repository.
-  - ## Usage
-    - Start command palette (with Ctrl+Shift+P or F1) and start typing Add gitignore
+![Demo](img/vscode-highlight-matching-tag.gif)
 
-- [📦 GitLens — Git supercharged ](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+# [📦 IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=zignd.html-css-class-completion)
 
-  - GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
+- A Visual Studio Code extension that provides CSS class name completion for the HTML class attribute based on the definitions found in your workspace or external files referenced through the link element.
 
-    ![Demo](img/vscode-gitlens.gif)
+![Demo](img/vscode-highlight-matching-tag.gif)
 
-- [📦 Guides ](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)
+- ## Features
+  - Gives you autocompletion for CSS class definitions that can be found in your workspace (defined in CSS files or the in the file types listed in the Supported Language Modes section);
+  - Supports external stylesheets referenced through link elements in HTML files;
+  - Command to manually re-cache the class definitions used in the autocompletion;
+  - User Settings to override which folders and files should be considered or excluded from the caching process.
 
-  - A Visual Studio Code extension for more guide lines
+![Demo](img/HTML-CSS-Class-Completion.gif)
 
-  - How **Guides** different from built-in indentation guides?
+# [📦 Laravel Blade formatter ](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)
 
-    - Stack and Active indentation guides
-    - Indentation backgrounds
-    - Color and style customizations
-    - Hide on selection
+## vscode-blade-formatter
 
-    ![Demo](img/vscode-guides.png)
+An opinionated Blade file formatter for VSCode. Marketplace page is here.
 
-- [📦 Highlight Matching Tag ](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
+You can also format programmatically with the same syntax using the blade-formatter that this extension relies on.
 
-  - This extension highlights matching opening and/or closing tags. Optionally it also shows path to tag in the status bar. Even though VSCode has some basic tag matching, it's just that - basic. This extension will try to match tags anywhere: from tag attributes, inside of strings, any files, while also providing extensive styling options to customize how tags are highlighted.
-  - ## Features
+## Features
 
-  ![Demo](img/vscode-highlight-matching-tag.gif)
+- Automatically indent markup inside directives
+- Automatically add spacing to blade template markers
+- PHP 8 support (null safe operator, named arguments) 🐘
+- PSR-2 support (format inside directives)
+- Automatically sort Tailwind CSS classes with respect of tailwind.config.js
 
-- [📦 htmltagwrap ](https://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap)
+## Screencast
 
-  - Wraps your selection in HTML tags. Can wrap inline selections and selections that span multiple lines (works with both single selections and multiple selections at once).
+![Demo](img/vscode-blade-formatter.gif)
 
-  - To use, select one or many chunks of code and press "Alt + W" ("Option + W" for Mac).
+# [📦 Laravel Blade Snippets ](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
 
-  - ## How to Use It
-    - Select one or more blocks of text or strings of text.
-    - Press Alt + W or Option + W for Mac.
-    - Type the tag name you want.
+- Laravel blade snippets and syntax highlight support for Visual Studio Code.
+- ## Features
 
-- [📦 Import Cost ](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+  - Blade syntax highlight
+  - Blade snippets
+  - Emmet works in blade template
+  - Blade formatting
 
-  - This extension will display inline in the editor the size of the imported package. The extension utilizes webpack with babili-webpack-plugin in order to detect the imported size.
-  - Features
-    - Calculates the size of imports and requires. Currently supports:
-      - Default importing: import Func from 'utils';
-      - Entire content importing: import \* as Utils from 'utils';
-      - Selective importing: import {Func} from 'utils';
-      - Selective importing with alias: import {orig as alias} from 'utils';
-      - Submodule importing: import Func from 'utils/Func';
-      - Require: const Func = require('utils').Func;
-      - Supports both Javascript and Typescript
+  ![Demo](img/laravel-blade-snippets-vscode.gif)
 
-- [📦 IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=zignd.html-css-class-completion)
+# [📦 Laravel Blade Spacer ](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer)
 
-  - A Visual Studio Code extension that provides CSS class name completion for the HTML class attribute based on the definitions found in your workspace or external files referenced through the link element.
+- An extension to automatically add spacing to blade templating markers.
+- ## Features
 
-  ![Demo](img/vscode-highlight-matching-tag.gif)
+  - Supports the following tags:
+    - `{{ }}`
+    - `{!! !!}`
+    - `{{-- --}}`
+      ![Demo](img/vscode-blade-spacer.gif)
 
-  - ## Features
-    - Gives you autocompletion for CSS class definitions that can be found in your workspace (defined in CSS files or the in the file types listed in the Supported Language Modes section);
-    - Supports external stylesheets referenced through link elements in HTML files;
-    - Command to manually re-cache the class definitions used in the autocompletion;
-    - User Settings to override which folders and files should be considered or excluded from the caching process.
+# [📦 Laravel Extra Intellisense ](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)
 
-  ![Demo](img/HTML-CSS-Class-Completion.gif)
+- This extension provides Laravel routes, views and ... autocomplete for VSCode.
+- ## Autocomplete
+  - Route names and route parameters
+  - Views and variables
+  - Configs
+  - Translations and translation parameters
+  - Laravel mix function
+  - Validation rules
+  - View sections and stacks
+  - Env
+  - Route Middlewares
+  - Asset
+  - Model Attributes (Beta!)
+  - Blade directives
+    ![Demo](img/vscode-laravel-extra-intellisense.gif)
 
-- [📦 Laravel Artisan ](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
+# [📦 Laravel goto view](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
 
-  - Run Laravel Artisan commands from within Visual Studio Code.
+## How to use
 
-  - ## Features
-    - Supports multiple instances of artisan in the same workspace hierarchy
-    - Make files (Controllers, Migrations, Models, etc)
-    - Run Custom Commands
-    - Manage the database
-    - Clear Caches
-    - Generate Keys
-    - View all routes
-    - Start/stop a local php server for test purposes
-    - Docker support
-      ![Demo](img/vscode-laravel-artisan.gif)
+    ![Demo](img/laravel-goto-view.gif)
 
-- [📦 Laravel Blade Snippets ](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
+# [📦 laravel-goto-components ](https://marketplace.visualstudio.com/items?itemName=naoray.laravel-goto-components)
 
-  - Laravel blade snippets and syntax highlight support for Visual Studio Code.
-  - ## Features
-    - Blade syntax highlight
-    - Blade snippets
-    - Emmet works in blade template
-    - Blade formatting
-      ![Demo](img/laravel-blade-snippets-vscode.gif)
+## How to use
 
-- [📦 Laravel Blade Spacer ](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer)
+    ![Demo](img/laravel-goto-components.gif)
 
-  - An extension to automatically add spacing to blade templating markers.
-  - ## Features
-    - Supports the following tags:
-      - `{{ }}`
-      - `{!! !!}`
-      - `{{-- --}}`
-        ![Demo](img/vscode-blade-spacer.gif)
+# [📦 Minify ](https://marketplace.visualstudio.com/items?itemName=hookyqr.minify)
 
-- [📦 Laravel Extra Intellisense ](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)
+- Minify your js, css and html files to save transmit bandwidth. Calls each of the minifiers directly, allowing settings to be passed:
+  - JS: uglify-js v2.7.4
+  - CSS: clean-css v3.4.21 \* HTML: html-minifier v3.2.2
+- Run the file minifier with F1 Minify.
 
-  - This extension provides Laravel routes, views and ... autocomplete for VSCode.
-  - ## Autocomplete
-    - Route names and route parameters
-    - Views and variables
-    - Configs
-    - Translations and translation parameters
-    - Laravel mix function
-    - Validation rules
-    - View sections and stacks
-    - Env
-    - Route Middlewares
-    - Asset
-    - Model Attributes (Beta!)
-    - Blade directives
-      ![Demo](img/vscode-laravel-extra-intellisense.gif)
+# [📦 npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
-- [📦 Laravel goto view](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
+- Visual Studio Code plugin that autocompletes npm modules in import statements.
+  ![Demo](img/NpmIntellisense.gif)
 
-  -
+# [📦 Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
-- [📦 Laravel Snippets ](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
+- Visual Studio Code plugin that autocompletes filenames.
 
-  - Laravel snippets extension for Visual Studio Code (Support Laravel 5 and above version).
-    - Laravel 5.x
-    - Laravel 6.x
-    - Laravel 7.x
-    - Laravel 8.x
-  - ## Usage
+  ![Demo](img/PathIntellisense.gif)
 
-    - Snippet prefix follows Laravel Facades. For example: Request::, Route::
+# [📦 PHP](https://marketplace.visualstudio.com/items?itemName=devsense.phptools-vscode)
 
-  - Support Snippet Prefix
+## PHP Tools for Visual Studio Code
 
-    - Auth
-    - Broadcast
-    - Cache
-    - Config
-    - Console
-    - Cookie
-    - Crypt
-    - DB
-    - Event
-    - Form (Laravel Collective Form/Html needs to be installed and available as blade snippets)
-    - Hash
-    - Helper
-    - Log
-    - Mail - Contains Mail:: and Mailable:: prefix for mail related settings
-    - Passport (Laravel v5.3 - API Authentication)
-    - Redirect
-    - Relation
-    - Request
-    - Response
-    - Route
-    - Schema - Contains Schema:: and Column:: prefix for database related settings
-    - Session
-    - Storage
-    - Str
-    - View
+This package extends VS Code with fast code completion, advanced editor features, code fixes, code lenses, code generators, debugger, built-in development web server, test explorer, tests debugger, and workspace-wide code analysis.
 
-      ![Demo](img/laravel5-snippets-vscode.gif)
+![Demo](img/phptools-vscode.gif)
 
-- [📦 Live Server ](https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver)
+# [📦 PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 
-  - Launch a local development server with live reload feature for static & dynamic pages.
+- PHP code intelligence for Visual Studio Code
+- Intelephense is a high performance PHP language server packed full of essential features for productive PHP development.
 
-    ![Demo](img/vscode-live-server.gif)
+  - Fast camel/underscore case code completion (IntelliSense) for document, workspace and built-in symbols and keywords with automatic addition of use declarations.
+  - Detailed signature (parameter) help for document, workspace and built-in constructors, methods, and functions.
+  - Rapid workspace wide go to definition support.
+  - Workspace wide find all references.
+  - Fast camel/underscore case workspace symbol search.
+  - Full document symbol search that also powers breadcrumbs and outline UI.
+  - Multiple diagnostics for open files via an error tolerant parser and powerful static analysis engine.
+  - Lossless PSR-12 compatible document/range formatting. Formats combined HTML/PHP/JS/CSS files too.
+  - Embedded HTML/JS/CSS code intelligence.
+  - Detailed hover with links to official PHP documentation.
+  - Smart highlight of references and keywords.
+  - Reads PHPStorm metadata for improved type analysis and suggestions.
 
-- [📦 Material Icon Theme ](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme)
+# [📦 PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=mehedidracula.php-namespace-resolver)
 
-  - Get the Material Design icons into your VS Code.
+- PHP Namespace Resolver can import and expand your class. You can also sort your imported classes by line length or in alphabetical order.
 
-    ![Demo](img/vscode-material-icon-theme.png)
+# [📦 Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-- [📦 Minify ](https://marketplace.visualstudio.com/items?itemName=hookyqr.minify)
+- Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
 
-  - Minify your js, css and html files to save transmit bandwidth. Calls each of the minifiers directly, allowing settings to be passed:
-    - JS: uglify-js v2.7.4
-    - CSS: clean-css v3.4.21 \* HTML: html-minifier v3.2.2
-  - Run the file minifier with F1 Minify.
+# [📦 Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
-- [📦 npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+## Visual Studio Code Remote - SSH
 
-  - Visual Studio Code plugin that autocompletes npm modules in import statements.
-    ![Demo](img/NpmIntellisense.gif)
+The Remote - SSH extension lets you use any remote machine with a SSH server as your development environment. This can greatly simplify development and troubleshooting in a wide variety of situations. You can:
 
-- [📦 open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+- Develop on the same operating system you deploy to or use larger, faster, or more specialized hardware than your local machine.
+- Quickly swap between different, remote development environments and safely make updates without worrying about impacting your local machine.
+- Access an existing development environment from multiple machines or locations.
+- Debug an application running somewhere else such as a customer site or in the cloud.
 
-  - rewrite the code with TypeScript, now it dependes on a tiny library npm/opn
-  - support more browsers: Chromium(Mac only), Firefox Developer Edition(Mac only), Edge(Windows only, sometimes it won't work)
-  - you can open any* type of file with the default program, not only *html file.
-  - ## How it works?
-    - on win32 uses start
-    - on darwin uses open
-    - otherwise uses ths xdg-open script from freedesktop.org
-  - ## Usage
+No source code needs to be on your local machine to gain these benefits since the extension runs commands and other extensions directly on the remote machine. You can open any folder on the remote machine and work with it just as you would if the folder were on your own machine.
 
-- [📦 Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+![Demo](img/ssh-readme.gif)
 
-  - Visual Studio Code plugin that autocompletes filenames.
+# [📦 Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 
-    ![Demo](img/PathIntellisense.gif)
+## Visual Studio Code Remote - SSH: Editing Configuration Files
 
-- [📦 php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
+The Remote - SSH extension lets you use any remote machine with a SSH server as your development environment.
 
-  - This extension simply provides PHP CS Fixer command.
-  - ## Usage
-    - F1 -> php-cs-fixer: fix this file
-    - or keyboard shortcut alt+shift+f vs code default formatter shortcut
-    - or right mouse context menu Format Document
-    - or right mouse context menu Format Selection
-    - or right mouse context menu on explorer php-cs-fixer: fix
+This extension complements the Remote - SSH extension with syntax colorization, keyword intellisense, and simple snippets when editing SSH configuration files.
 
-- [📦 PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
+If you already have an extension that provides this functionality, you can disable this extension.
 
-  ![Demo](img/vscode-php-debug.gif)
+# [📦 Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
 
-- [📦 PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+## Visual Studio Code Remote Explorer
 
-  - PHP code intelligence for Visual Studio Code
-  - Intelephense is a high performance PHP language server packed full of essential features for productive PHP development.
-    - Fast camel/underscore case code completion (IntelliSense) for document, workspace and built-in symbols and keywords with automatic addition of use declarations.
-    - Detailed signature (parameter) help for document, workspace and built-in constructors, methods, and functions.
-    - Rapid workspace wide go to definition support.
-    - Workspace wide find all references.
-    - Fast camel/underscore case workspace symbol search.
-    - Full document symbol search that also powers breadcrumbs and outline UI.
-    - Multiple diagnostics for open files via an error tolerant parser and powerful static analysis engine.
-    - Lossless PSR-12 compatible document/range formatting. Formats combined HTML/PHP/JS/CSS files too.
-    - Embedded HTML/JS/CSS code intelligence.
-    - Detailed hover with links to official PHP documentation.
-    - Smart highlight of references and keywords.
-    - Reads PHPStorm metadata for improved type analysis and suggestions.
+The Remote - SSH and Remote - Tunnels extensions let you use any remote machine as your development environment.
 
-- [📦 PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=mehedidracula.php-namespace-resolver)
+This extension complements the Remote - SSH and Remote Tunnels extensions by enabling the Remote Explorer view that shows a list of remote machines available to connect to.
 
-  - PHP Namespace Resolver can import and expand your class. You can also sort your imported classes by line length or in alphabetical order.
+# [📦 Snippets Creator](https://marketplace.visualstudio.com/items?itemName=claudineyqr.snippets-creator)
 
-- [📦 Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- Create snippets quickly from selected code blocks.
+- Automate the creation of snippets with this extension. Simply save code blocks as snippet.
+  ![Demo](img/vscode-snippets-creator.gif)
 
-  - Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+# [📦 Txt Syntax](https://marketplace.visualstudio.com/items?itemName=xshrim.txt-syntax)
 
-- [📦 Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+- ## Features
+  - Highlight syntax for several text files.
+  - Open the file under the current cursor through the right-click menu "Open File".
+  - Simple folding and outline function.
+  - Add codelens for Makefile to make running makefile target easily.
+  - Highlight current line.
+  - Highlight multiple selected words in all active editors.
+  - Filter and focus on lines based on custom regular expressions
 
-  - The Remote - WSL extension lets you use VS Code on Windows to build Linux applications that run on the Windows Subsystem for Linux (WSL). You get all the productivity of Windows while developing with Linux-based tools, runtimes, and utilities.
+# [📦 Vue Language Features (Volar) ](https://marketplace.visualstudio.com/items?itemName=vue.volar)
 
-- [📦 Slime Theme](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime)
+Vue Language Features is a language support extension built for Vue, Vitepress and petite-vue. this is based on @vue/reactivity to calculate everything on-demand, to implement native TypeScript language service level performance.
 
-  - A dark syntax/workbench theme forVisual Studio Code based on my Atom theme
-  - Optimized for SCSS, HTML, JS, TS, Markdown, and PHP files.
+# [📦 gitignore ](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
 
-- [📦 Snippets Creator](https://marketplace.visualstudio.com/items?itemName=claudineyqr.snippets-creator)
+- A extension for Visual Studio Code that assists you in working with .gitignore files.
 
-  - Create snippets quickly from selected code blocks.
-  - Automate the creation of snippets with this extension. Simply save code blocks as snippet.
-    ![Demo](img/vscode-snippets-creator.gif)
+- Features
+  - Language support for .gitignore files
+  - Add local .gitignore by pulling file from the the github/gitignore repository.
 
-- [📦 Txt Syntax](https://marketplace.visualstudio.com/items?itemName=xshrim.txt-syntax)
+## Usage
 
-  - ## Features
-    - Highlight syntax for several text files.
-    - Open the file under the current cursor through the right-click menu "Open File".
-    - Simple folding and outline function.
-    - Add codelens for Makefile to make running makefile target easily.
-    - Highlight current line.
-    - Highlight multiple selected words in all active editors.
-    - Filter and focus on lines based on custom regular expressions
+- Start command palette (with Ctrl+Shift+P or F1) and start typing Add gitignore
 
-- [📦 Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+# [📦 htmltagwrap ](https://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap)
 
-  - Vue tooling for VS Code.
-    - vls: Vue Language Server
-    - vti: Vetur Terminal Interface
-    - Docs
+- Wraps your selection in HTML tags. Can wrap inline selections and selections that span multiple lines (works with both single selections and multiple selections at once).
 
-- [📦 PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
+- To use, select one or many chunks of code and press "Alt + W" ("Option + W" for Mac).
 
-  - Advanced PHP IntelliSense for Visual Studio Code.
-    ![Demo](img/vscode-php-intellisense.gif)
+- ## How to Use It
 
----
+  - Select one or more blocks of text or strings of text.
+  - Press Alt + W or Option + W for Mac.
+  - Type the tag name you want.
+
+- ***
 
 <p align="center">Copyright &copy; 2021 <a title="IQBAL HASAN" href="https://iqbalhasan.dev">IQBAL HASAN</a></p>
 
